@@ -6,4 +6,5 @@ Aqui nesta pasta deixarei disponível todo o material que utilizaremos em nossas
 
 ## Atualizações:
 
-30/04/2017 - Adiconado este arquivo
+* 23/04/2017 - Criação do curso com o plano de ensino, exercícios e slides utilizados em sala de aula
+* 30/04/2017 - Este arquivo foi adicionado
