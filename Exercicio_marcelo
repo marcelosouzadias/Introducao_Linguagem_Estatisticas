@@ -1,4 +1,4 @@
-print( [1,3,4] + [8,9,82])
+Exercício 1.1
 
 v_nome = input("Informe o Nome: ")
 v_email = input("Informe o E-mail: ")
@@ -8,3 +8,22 @@ print("Email: " + v_email)
 
 print("Nome: " + input("Informe o Nome: "))
 print("Email: " + input("Informe o Email"))
+
+-------------------------------------------------------------------------------------------
+Exercício 1.2 FALTA FAZER OS OUTROS
+
+- 10 &plus; 20 × 30
+- 42 ÷ 30
+- (94 &plus; 2) × 6 − 1
+
+conta = 4**2 / 30
+print(conta)
+-------------------------------------------------------------------------------------------
+
+print("Exercício 3.1")
+print("Verifique a precedência dos operadores da expressão:")
+print()
+print("Expressao: True and not False or True and False")
+print(True and not False or True and False)
+print("Expressao: (True and (not False)) or (True and False)")
+print((True and (not False)) or (True and False))
