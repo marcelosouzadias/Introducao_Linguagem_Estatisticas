@@ -38,3 +38,19 @@ print("Expressao: True and not False or True and False")
 print(True and not False or True and False)
 print("Expressao: (True and (not False)) or (True and False)")
 print((True and (not False)) or (True and False))
+
+-------------------------------------------------------------------------------------------
+
+
+print("Exercício 4.1")
+print("Escreva um código que solicita ao usuário uma temperatura em °C e converte para °F apresentando a resposta no seguinte formato:")
+print("32.0°C equivalem a 0089.600°F")
+print("-------------------------------------------------------------------------------")
+
+
+temp_c = input("informe a temperatura em °C: ")
+temp_fire = ((9 * int(temp_c)) / 5) + 32
+
+print('A temperatura: {} °C equivalem a {:0^8}°F'.format(str(temp_c),str(temp_fire)))
+
+-------------------------------------------------------------------------------------------
