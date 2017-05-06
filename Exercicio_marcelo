@@ -54,3 +54,17 @@ temp_fire = ((9 * int(temp_c)) / 5) + 32
 print('A temperatura: {} °C equivalem a {:0^8}°F'.format(str(temp_c),str(temp_fire)))
 
 -------------------------------------------------------------------------------------------
+
+
+#Escreva uma função que recebe dois parâmetros: uma mensagem e um número inteiro informando qual o tipo de mensagem:
+#0 = ERRO
+#1 = ALERTA
+#2 = AVISO
+#Essa função então imprime a mensagem no formato TIPO: Conteúdo da mensagem
+
+def mensagem(msg, tipo):
+    ind_Mensage = ('ERRO','ALERTA','AVISO')
+    if tipo > len(ind_Mensage) :
+        print("Tipo inválido!")
+    else:
+        print(ind_Mensage[tipo], msg)
