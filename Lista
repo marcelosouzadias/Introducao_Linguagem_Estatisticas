@@ -1,0 +1,13 @@
+LL = [[1, 2, 3],
+      [4, 5, 6],
+      [7, 8, 9]]
+
+for x in range(len(LL)):
+  for y in range(len(LL[x])):
+    print("LL[{}-{}] = ".format(x,y) + str(LL[x][y]))
+    
+print("---------------------")
+
+for i, v in enumerate(LL):
+  for x, y in enumerate(v):
+    print("LL[{}-{}] = ".format(i,x) + str(y))
