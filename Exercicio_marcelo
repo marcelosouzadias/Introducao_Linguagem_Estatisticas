@@ -1,0 +1,10 @@
+print( [1,3,4] + [8,9,82])
+
+v_nome = input("Informe o Nome: ")
+v_email = input("Informe o E-mail: ")
+
+print("Nome: " + v_nome)
+print("Email: " + v_email)
+
+print("Nome: " + input("Informe o Nome: "))
+print("Email: " + input("Informe o Email"))
