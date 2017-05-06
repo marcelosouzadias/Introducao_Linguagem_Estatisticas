@@ -11,3 +11,32 @@ print("---------------------")
 for i, v in enumerate(LL):
   for x, y in enumerate(v):
     print("LL[{}-{}] = ".format(i,x) + str(y))
+
+
+
+android = { "Alpha": 1.0,
+            "Beta": 1.1,
+            "Cupcake": 2.5,
+            "Donut": 1.6,
+            "Eclair": [2.0, 2.1],
+            "Froyo": 2.2,
+            "Gingerbread": 2.3,
+            "Honeycomb": [3.0, 3.1, 3.2],
+            "Ice Cream Sandwich": 4.0,
+            "Jelly Bean": [4.1, 4.2, 4.3],
+            "KitKat": 4.4,
+            "Lollipop": 5.0,
+            "Marshmallow": 6.0}
+            
+print(android.keys())
+print("---------------------")
+
+print(android.values())
+print("---------------------")
+
+for i, cel in enumerate(android):
+  print(str(cel))
+
+print("---------------------")
+for chave, valor in android.items():
+    print("Valor: ", valor, " - Chave: ", chave)
