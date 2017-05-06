@@ -1,23 +1,34 @@
-Exercício 1.1
+print("Exercício 1.1")
+print("Faça o python imprimir seu nome e seu email no formato")
+print("Nome: Arthur Gouveia")
+print("e-mail: gouveia.arthur@gmail.com")
+print("-------------------------------------------------------------------------------")
+print()
 
 v_nome = input("Informe o Nome: ")
 v_email = input("Informe o E-mail: ")
-
 print("Nome: " + v_nome)
 print("Email: " + v_email)
 
 print("Nome: " + input("Informe o Nome: "))
-print("Email: " + input("Informe o Email"))
+print("Email: " + input("Informe o Email: "))
 
--------------------------------------------------------------------------------------------
-Exercício 1.2 FALTA FAZER OS OUTROS
+------------------------------------------------------------------------------------------
 
-- 10 &plus; 20 × 30
-- 42 ÷ 30
-- (94 &plus; 2) × 6 − 1
-
+print("Exercício 1.2")
+print("a 10 &plus; 20 × 30")
+print("b 42 ÷ 30")
+print("c (94 &plus; 2) × 6 − 1")
+print("-------------------------------------------------------------------------------")
+print()
+print("Respostas")
+print("a 10 &plus; 20 × 30")
+print("-------------------------------------------------------------------------------")
+print("b 4² ÷ 30")
 conta = 4**2 / 30
 print(conta)
+print("-------------------------------------------------------------------------------")
+
 -------------------------------------------------------------------------------------------
 
 print("Exercício 3.1")
